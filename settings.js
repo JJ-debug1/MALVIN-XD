@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "malvin~EvF03S5S#SQBgx7ht3WLCLjPIvmtmxGN5lRqzQb54C3-g52Dd3Bg",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -34,7 +34,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "true",
+       WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups 
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -56,7 +56,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // add alive msg here 
 
 
-        STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
+        STICKER_NAME: process.env.STICKER_NAME || "ShadowJ >> You😾🫵🏾",
 // type sticker pack name 
 
         CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -68,7 +68,7 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "263776388689",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "2347073792765",
 // add your bot owner number
 
 OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
@@ -94,7 +94,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
@@ -106,7 +106,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
    READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "263776388689",
+     DEV: process.env.DEV || "2347073792765",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "true",
